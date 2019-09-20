@@ -1,0 +1,9 @@
+SQL> desc SOFT_DELETION_LOB_EMPLOYEE;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EID                                                NUMBER(5)
+ ENAME                                              VARCHAR2(10)
+ SALARY                                             NUMBER(10,2)
+ EPHOTO                                             BLOB
+ ERESUME                                            CLOB
+ STATUS                                             VARCHAR2(10)
